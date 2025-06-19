@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffdf9;
+  color: #333;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #ffdede, #ffeedd);
+  animation: fadeIn 2s ease;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+.cta-button {
+  padding: 12px 24px;
+  background: #ff7f50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.cta-button:hover {
+  background: #e25a3e;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #ff7f50;
+  color: white;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
